@@ -84,7 +84,7 @@ button:hover{
 
 @media (max-width: 640px){
     .container{
-        width: 32vh;
+        width: auto;
     }
     label{
         display: flex;
