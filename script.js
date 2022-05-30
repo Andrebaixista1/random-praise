@@ -1,21 +1,12 @@
 var items = [
-  {
-    name: "A Ele a Glória",
-    author: "Diante do trono",
-    type: "Declaração",
-  },
-  {
-    name: "A tua glória me atrai",
-    author: "Marcos Freire",
-    type: "Declaração",
-  },
-  {
-    name: "Abba",
-    author: "Laura Souguelis",
-    type: "Encontro",
-  },
-  //    ---- Convocação ----
-  {
+//    ---- Convocação/Encontro ----
+{
+    name: "Sou casa",
+    author:"Elizeu Alvez",
+    type:"Convocação/Encontro"
+},
+//    ---- Convocação ----
+{
     name: "A casa é sua",
     author: "Casa Worship",
     type: "Convocação",
@@ -54,17 +45,17 @@ var items = [
     name: "Aviva-nos",
     author: "Davi Fernandes",
     type: "Convocação",
-  },
-  {
+},
+{
     name: "Cidadãos do Céus",
     author: "Trazendo a Arca",
     type: "Convocação",
-  },
-  {
+},
+{
     name: "Cultura do céu",
     author: "Davi Fernandes",
     type: "Convocação",
-  },
+},
   {
     name: "Deus está aqui",
     author: "Eli Soares",
@@ -86,7 +77,7 @@ var items = [
     type: "Convocação",
   },
   {
-    name: "Liberdade",
+      name: "Liberdade",
     author: "Laura Souguelis",
     type: "Convocação",
   },
@@ -151,10 +142,73 @@ var items = [
     type: "Convocação",
   },
   {
-    name: "Vou te alegrar",
-    author: "Aline Barros",
-    type: "Convocação",
-  },
+      name: "Vou te alegrar",
+      author: "Aline Barros",
+      type: "Convocação",
+    },
+    //    ---- Encontro ----
+    {
+        name: "Abba",
+        author: "Laura Souguelis",
+        type: "Encontro",
+      },
+    //    ---- Declaração ----
+      {
+        name: "A Ele a Glória",
+        author: "Diante do trono",
+        type: "Declaração",
+      },
+      {
+        name: "A tua glória me atrai",
+        author: "Marcos Freire",
+        type: "Declaração",
+      },
+      {
+        name:"Aclame ao Senhor",
+        author:"Diante do trono",
+        type:"Ddeclaração"
+      },
+      {
+          name:"Aleluia (Halleluja)",
+          author: "Gabriela Rocha",
+          type:"Declaração"
+      },
+      {
+          name:"Ao único",
+          author:"Eli Soares",
+          type:"Declaração"
+      },
+      {
+          name:"Caminho no deserto",
+          author:"Sarah Fernandes",
+          type:"Declarção"
+      },
+      {
+          name:"Canção do apocalipse",
+          author:"Diante do trono",
+          type:"Declaração"
+      },
+      {
+          name:"Canção do céu",
+          author:"Anderson Freire",
+          type:"Declaração"
+      },
+      {
+          name:'Consagração',
+          author:'Aline Barros',
+          type:"Declaração"
+      },
+      {
+          name:"Deus da minha vida",
+          author:"Thalles Roberto",
+          type:"Declaração"
+      },
+      {
+          name:"Deus de promessas",
+          author:"Davi Sacer",
+          type:"Declaração"
+      }
+      
 ];
 
 var btnEscolha = document.getElementById("show_music");

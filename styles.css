@@ -82,6 +82,21 @@ button:hover{
     transition: 0.8s;
 }
 
+@media (max-width: 640px){
+    .container{
+        width: 32vh;
+    }
+    label{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        font-size: 15px;
+    }
+    li {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
 
 
 
