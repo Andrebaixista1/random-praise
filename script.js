@@ -207,7 +207,232 @@ var items = [
           name:"Deus de promessas",
           author:"Davi Sacer",
           type:"Declaração"
-      }
+      },
+      {
+          name: 'Deus dos deuses',
+          author:'Lauriete',
+          type:'Declaração'
+      },
+      {
+          name:'Deus é Deus',
+          author:'Denilo Marçal',
+          type:'Declaração'
+      },
+      {
+          name:'Deus forte',
+          author:'Kleber Lucas',
+          type:'Decçaração'
+      },
+      {
+          name:"Deus tu é Santo",
+          author:"Danielle Cristina",
+          type:'Declaração'
+      },
+      {
+          name: 'Digno é o cordeiro',
+          author:'Casa de Davi',
+          type:'Declaração'
+      },
+      {
+          name:'Digno é o Senhor',
+          author:'Aline Barros',
+          type:'Declaração'
+      },
+      {
+          name:'Em espirito e em verdade',
+          author:'Rosa de Saron',
+          type: 'Declaração'
+      },
+      {
+          name:'Emanuel',
+          author:"Fernandinho",
+          type:'Declaração'
+      },
+      {
+          name:"Eu sou teu",
+          author:'Gabriela Rocha',
+          type:'Declaração'
+      },
+      {
+          name:'Fidelidade',
+          author:'Danielle Cristina',
+          type:'Declaração'
+      },
+      {
+          name:'Filho do Deus vivo',
+          author:'Nivea Soares',
+          type:'Declaração'
+      },
+      {
+          name:'Galileu',
+          author:'Fernandinho',
+          type:"Declaração"
+      },
+      {
+          name:'Grande é o Senhor',
+          author:'Adhemar de Campos',
+          type:'Declaração'
+      },
+      {
+          name:'Grandes coisas',
+          author:'Fernandinho',
+          type:"Declaração"
+      },
+      {
+          name:'Lindo és',
+          author:'Kingdon Movement',
+          type:"Declaração"
+      },
+      {
+          name: 'Maravilhado',
+          author:"Nivea Soares",
+          type:'Declaração'
+      },
+      {
+          name: 'Nada além do sangue',
+          author:'Fernandinho',
+          type:'Declaração'
+      },
+      {
+          name:'Nada se compara',
+          author:'Renascer Praise',
+          type:'Declaração'
+      },
+      {
+          name:'Ninguém explica Deus',
+          author:'Gabriela Rocha',
+          type:'Declaração'
+      },
+      {
+          name:'Nosso general é Cristo',
+          author:'Adhemar de Campos',
+          type:'Declaração'
+      },
+      {
+          name:'Nunca foi sobre nós',
+          author:'Ministério Zoe',
+          type:'Declaração'
+      },
+      {
+          name:'O nome',
+          author:'Luma Elpídio',
+          type:'Declaração'
+      },
+      {
+          name:'Oh quão lindo esse nome é',
+          author:'Kemuel',
+          type:'Declaração'
+      },
+      {
+          name:'Oh quão lindo esse nome é',
+          author:'Kemuel',
+          type:'Declaração'
+      },
+      {
+          name:'Oh quão lindo esse nome é',
+          author:'Kemuel',
+          type:'Declaração'
+      },
+      {
+          name:'Pai Nosso',
+          author:'Pedras Vivas',
+          type:'Declaração'
+      },
+      {
+          name:'Plano perfeito',
+          author:'Renascer Praise',
+          type:'Declaração'
+      },
+      {
+          name:'Poderoso Deus',
+          author:'David Quilan',
+          type:'Declaração'
+      },
+      {
+          name:'Pra sempre',
+          author:'Ministério Avivah',
+          type:'Declaração'
+      },
+      {
+          name:'Quão grande é o meu Deus ',
+          author:'Soraya Morais',
+          type:'Declaração'
+      },
+      {
+          name:'Quebrantado',
+          author:'Vineyard',
+          type:'Declaração'
+      },
+      {
+          name:'Quem é aquele',
+          author:'DROPS',
+          type:'Declaração'
+      },
+      {
+          name:'Reina em mim',
+          author:'Vineyard',
+          type:'Declaração'
+      },
+      {
+          name:'Santo',
+          author:'Juliano Son',
+          type:'Declaração'
+      },
+      {
+          name:'Santo é o cordeiro',
+          author:'Renascer praise',
+          type:'Declaração'
+      },
+      {
+          name:'Senhor e Rei (Acima de tudo)',
+          author:'Ministério apascentar',
+          type:'Declaração'
+      },
+      {
+          name:'Senhor tu és bom (Deus é bom)',
+          author:'Soraya Moraes',
+          type:'Declaração'
+      },
+      {
+          name:'Seu sangue',
+          author:'Fernandinho',
+          type:'Declaração'
+      },
+      {
+          name:'Te conhecer',
+          author:'Ministério apascentar',
+          type:'Declaração'
+      },
+      {
+          name:'Teu amor não falha',
+          author:'Nívea Soares',
+          type:'Declaração'
+      },
+      {
+          name:'Teu Santo Nome',
+          author:'Gabriela Rocha',
+          type:'Declaração'
+      },
+      {
+          name:'Tu és bom',
+          author:'Fred Arrais',
+          type:'Declaração'
+      },
+      {
+          name:'Tu és fiel',
+          author:'Eyshila',
+          type:'Declaração'
+      },
+      {
+          name:'Tu reinas',
+          author:'Julio Cesar Junior',
+          type:'Declaração'
+      },
+      {
+          name:'Vim para adorar-te',
+          author:'Adoração e Adoradores',
+          type:'Declaração'
+      },
       
 ];
 
@@ -215,6 +440,7 @@ var btnEscolha = document.getElementById("show_music");
 var spanWindow = document.getElementById("louvores");
 
 btnEscolha.addEventListener("click", () => {
+    console.log('Musicas salvas: ' +items.length)
   // mostrar uma lista de itens sem repetir os nomes
   spanWindow.innerHTML = "";
   var listaItens = [];
@@ -229,7 +455,13 @@ btnEscolha.addEventListener("click", () => {
         listaItens.push(items[r].name);
 
         var li = document.createElement("li");
+        
+
+        
+
         li.innerHTML = `${items[r].name} - ${items[r].author} - ${items[r].type}`;
+        //alinha itens no meio 
+        // li.style.textAlign = "left";
         spanWindow.appendChild(li);
       }
     }
