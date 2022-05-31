@@ -47,7 +47,7 @@ var items = [
     type: "Convocação",
   },
   {
-    name: "Cidadãos do Céus",
+    name: "Cidadãos dos Céus",
     author: "Trazendo a Arca",
     type: "Convocação",
   },
@@ -636,7 +636,7 @@ var items = [
   },
   {
     name: "Ouço Deus me chamar",
-    author: "Ludimila Ferber",
+    author: "Ludmila Ferber",
     type: "Encontro",
   },
   {
@@ -968,7 +968,7 @@ var items = [
   },
    {
     name: "Nunca pare de lutar",
-    author: "Ludimila Ferber",
+    author: "Ludmila Ferber",
     type: "Resposta",
   },
    {
@@ -1097,14 +1097,191 @@ var items = [
   {
       name:'Eu vou construir',
       author:'Juliano Son',
-      type:""
+      type:"Não definido"
   },
   {
       name:'Terra Fértil',
       author:'Min. Além do Véu',
-      type:""
+      type:"Não definido"
   },
-    
+  {
+      name:'É adorar',
+      author:'Amanda Wanessa',
+      type:"Não definifo"
+  },
+  {
+      name:'Invoquei',
+      author:'Renascer Praise',
+      type:"Não definifo"
+  },
+  {
+      name:'Teus olhos',
+      author:'Marcos Witt',
+      type:"Não definifo"
+  },
+  {
+      name:'Leão da tribo de juda',
+      author:'Adhemar de Campos',
+      type:"Não definifo"
+  },
+  {
+      name:'Oferta de amor',
+      author:'Koinonya',
+      type:"Não definifo"
+  },
+  {
+      name:'Sonhos de Deus',
+      author:'Ludmila Ferber',
+      type:"Não definifo"
+  },
+  {
+      name:'Alfa e Ômega',
+      author:'Marine Friesen',
+      type:"Não definifo"
+  },
+  {
+      name:'Tua presença',
+      author:'Paulo Neto',
+      type:"Não definifo"
+  },
+  {
+      name:'Uma nova história',
+      author:'Fernandinho',
+      type:"Não definifo"
+  },
+  {
+      name:'Eu também',
+      author:'Marine Friesen',
+      type:"Não definifo"
+  },
+  {
+      name:'A arca',
+      author:'Renascer Praise',
+      type:"Não definifo"
+  },
+  {
+      name:'Espírito enche a minha vida/Ao único/Consagração',
+      author:'Gabriela Rocha',
+      type:"Não definifo"
+  },
+  {
+      name:'Yeshua',
+      author:'Fernandinho',
+      type:"Não definifo"
+  },
+  {
+      name:'Eu vou viver uma virada',
+      author:'Toque no altar',
+      type:"Não definifo"
+  },
+  {
+      name:'Toda sorte de bençãos',
+      author:'Davi Sacer',
+      type:"Não definifo"
+  },
+  {
+      name:'Grande Coisas',
+      author:'Fernandinho',
+      type:"Não definifo"
+  },
+  {
+      name:'Ser reconhecido de Deus',
+      author:'Renascer Praise',
+      type:"Não definifo"
+  },
+  
+  
+  {
+      name:'O chão vai tremer',
+      author:'Davi Sacer',
+      type:"Não definifo"
+  },
+  {
+      name:'Céus e terra se encontram',
+      author:'Davi Fernandes',
+      type:"Não definifo"
+  },
+  {
+      name:'Vitorioso És',
+      author:'Gabriel Guedes',
+      type:"Não definifo"
+  },
+  {
+      name:'Não há outro lugar',
+      author:'Central 3',
+      type:"Não definifo"
+  },
+  {
+      name:'Espirito de Deus',
+      author:'Davi Fernandes',
+      type:"Não definifo"
+  },
+  {
+      name:'Tempo de Festa',
+      author:'Diante do trono',
+      type:"Não definifo"
+  },
+  
+  {
+      name:'Cultura dos céus',
+      author:'Davi Fernandes',
+      type:"Não definifo"
+  },
+  {
+      name:'Vem com Josué lutar em Jericó',
+      author:'Kemuel',
+      type:"Não definifo"
+  },
+  {
+      name:'Óleo de alegria',
+      author:'Alda Célia',
+      type:"Não definifo"
+  },
+  {
+      name:'Abba/Perfeito amor',
+      author:'Kemuel',
+      type:"Não definifo"
+  },
+  
+  {
+      name:'Deus me ama',
+      author:'Thalles Roberto',
+      type:"Não definifo"
+  },
+  {
+      name:'Salmos 126',
+      author:'Ministério Zoe',
+      type:"Não definifo"
+  },
+  
+  {
+      name:'500 graus',
+      author:'Cassiane',
+      type:"Não definifo"
+  },
+  
+  
+  {
+      name:'Simplismente sobrenatural',
+      author:'Rose Nascimento',
+      type:"Não definifo"
+  },
+ 
+  {
+      name:'Jesus em tua presença',
+      author:'Morada',
+      type:"Não definifo"
+  },
+  {
+      name:'Ta chorando porque',
+      author:'Eliane Fernandes',
+      type:"Não definifo"
+  },
+  {
+      name:'Meu maior prazer',
+      author:'Min. Unção Ágape',
+      type:"Não definifo"
+  }   
 
 ];
 
@@ -1136,3 +1313,13 @@ btnEscolha.addEventListener("click", () => {
     }
   }
 });
+
+
+function quantyPraises(){
+    const qtde = document.getElementById("qtdeLouvores");
+
+    qtde.innerHTML = `${items.length} Louvores`;
+
+}
+
+quantyPraises()

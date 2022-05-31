@@ -102,6 +102,25 @@ a{
     text-align: justify;
 }
 
+th{
+    text-align: center;
+    padding: 5px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #F1B42F;
+    margin-bottom: 7px;
+}
+table th{
+    border: 1px solid #F1B42F;
+}
+
+#qtdeLouvores{
+    color: #F1B42F;
+    font-weight: bolder;
+}
+
 @media (max-width: 640px){
     
     .container{
