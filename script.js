@@ -1,12 +1,12 @@
 var items = [
-//    ---- Convocação/Encontro ----
-{
+  //    ---- Convocação/Encontro ----
+  {
     name: "Sou casa",
-    author:"Elizeu Alvez",
-    type:"Convocação/Encontro"
-},
-//    ---- Convocação ----
-{
+    author: "Elizeu Alvez",
+    type: "Convocação/Encontro",
+  },
+  //    ---- Convocação ----
+  {
     name: "A casa é sua",
     author: "Casa Worship",
     type: "Convocação",
@@ -45,17 +45,17 @@ var items = [
     name: "Aviva-nos",
     author: "Davi Fernandes",
     type: "Convocação",
-},
-{
+  },
+  {
     name: "Cidadãos do Céus",
     author: "Trazendo a Arca",
     type: "Convocação",
-},
-{
+  },
+  {
     name: "Cultura do céu",
     author: "Davi Fernandes",
     type: "Convocação",
-},
+  },
   {
     name: "Deus está aqui",
     author: "Eli Soares",
@@ -77,7 +77,7 @@ var items = [
     type: "Convocação",
   },
   {
-      name: "Liberdade",
+    name: "Liberdade",
     author: "Laura Souguelis",
     type: "Convocação",
   },
@@ -142,305 +142,585 @@ var items = [
     type: "Convocação",
   },
   {
-      name: "Vou te alegrar",
-      author: "Aline Barros",
-      type: "Convocação",
-    },
-    //    ---- Encontro ----
-    {
-        name: "Abba",
-        author: "Laura Souguelis",
-        type: "Encontro",
-      },
-    //    ---- Declaração ----
-      {
-        name: "A Ele a Glória",
-        author: "Diante do trono",
-        type: "Declaração",
-      },
-      {
-        name: "A tua glória me atrai",
-        author: "Marcos Freire",
-        type: "Declaração",
-      },
-      {
-        name:"Aclame ao Senhor",
-        author:"Diante do trono",
-        type:"Ddeclaração"
-      },
-      {
-          name:"Aleluia (Halleluja)",
-          author: "Gabriela Rocha",
-          type:"Declaração"
-      },
-      {
-          name:"Ao único",
-          author:"Eli Soares",
-          type:"Declaração"
-      },
-      {
-          name:"Caminho no deserto",
-          author:"Sarah Fernandes",
-          type:"Declarção"
-      },
-      {
-          name:"Canção do apocalipse",
-          author:"Diante do trono",
-          type:"Declaração"
-      },
-      {
-          name:"Canção do céu",
-          author:"Anderson Freire",
-          type:"Declaração"
-      },
-      {
-          name:'Consagração',
-          author:'Aline Barros',
-          type:"Declaração"
-      },
-      {
-          name:"Deus da minha vida",
-          author:"Thalles Roberto",
-          type:"Declaração"
-      },
-      {
-          name:"Deus de promessas",
-          author:"Davi Sacer",
-          type:"Declaração"
-      },
-      {
-          name: 'Deus dos deuses',
-          author:'Lauriete',
-          type:'Declaração'
-      },
-      {
-          name:'Deus é Deus',
-          author:'Denilo Marçal',
-          type:'Declaração'
-      },
-      {
-          name:'Deus forte',
-          author:'Kleber Lucas',
-          type:'Decçaração'
-      },
-      {
-          name:"Deus tu é Santo",
-          author:"Danielle Cristina",
-          type:'Declaração'
-      },
-      {
-          name: 'Digno é o cordeiro',
-          author:'Casa de Davi',
-          type:'Declaração'
-      },
-      {
-          name:'Digno é o Senhor',
-          author:'Aline Barros',
-          type:'Declaração'
-      },
-      {
-          name:'Em espirito e em verdade',
-          author:'Rosa de Saron',
-          type: 'Declaração'
-      },
-      {
-          name:'Emanuel',
-          author:"Fernandinho",
-          type:'Declaração'
-      },
-      {
-          name:"Eu sou teu",
-          author:'Gabriela Rocha',
-          type:'Declaração'
-      },
-      {
-          name:'Fidelidade',
-          author:'Danielle Cristina',
-          type:'Declaração'
-      },
-      {
-          name:'Filho do Deus vivo',
-          author:'Nivea Soares',
-          type:'Declaração'
-      },
-      {
-          name:'Galileu',
-          author:'Fernandinho',
-          type:"Declaração"
-      },
-      {
-          name:'Grande é o Senhor',
-          author:'Adhemar de Campos',
-          type:'Declaração'
-      },
-      {
-          name:'Grandes coisas',
-          author:'Fernandinho',
-          type:"Declaração"
-      },
-      {
-          name:'Lindo és',
-          author:'Kingdon Movement',
-          type:"Declaração"
-      },
-      {
-          name: 'Maravilhado',
-          author:"Nivea Soares",
-          type:'Declaração'
-      },
-      {
-          name: 'Nada além do sangue',
-          author:'Fernandinho',
-          type:'Declaração'
-      },
-      {
-          name:'Nada se compara',
-          author:'Renascer Praise',
-          type:'Declaração'
-      },
-      {
-          name:'Ninguém explica Deus',
-          author:'Gabriela Rocha',
-          type:'Declaração'
-      },
-      {
-          name:'Nosso general é Cristo',
-          author:'Adhemar de Campos',
-          type:'Declaração'
-      },
-      {
-          name:'Nunca foi sobre nós',
-          author:'Ministério Zoe',
-          type:'Declaração'
-      },
-      {
-          name:'O nome',
-          author:'Luma Elpídio',
-          type:'Declaração'
-      },
-      {
-          name:'Oh quão lindo esse nome é',
-          author:'Kemuel',
-          type:'Declaração'
-      },
-      {
-          name:'Oh quão lindo esse nome é',
-          author:'Kemuel',
-          type:'Declaração'
-      },
-      {
-          name:'Oh quão lindo esse nome é',
-          author:'Kemuel',
-          type:'Declaração'
-      },
-      {
-          name:'Pai Nosso',
-          author:'Pedras Vivas',
-          type:'Declaração'
-      },
-      {
-          name:'Plano perfeito',
-          author:'Renascer Praise',
-          type:'Declaração'
-      },
-      {
-          name:'Poderoso Deus',
-          author:'David Quilan',
-          type:'Declaração'
-      },
-      {
-          name:'Pra sempre',
-          author:'Ministério Avivah',
-          type:'Declaração'
-      },
-      {
-          name:'Quão grande é o meu Deus ',
-          author:'Soraya Morais',
-          type:'Declaração'
-      },
-      {
-          name:'Quebrantado',
-          author:'Vineyard',
-          type:'Declaração'
-      },
-      {
-          name:'Quem é aquele',
-          author:'DROPS',
-          type:'Declaração'
-      },
-      {
-          name:'Reina em mim',
-          author:'Vineyard',
-          type:'Declaração'
-      },
-      {
-          name:'Santo',
-          author:'Juliano Son',
-          type:'Declaração'
-      },
-      {
-          name:'Santo é o cordeiro',
-          author:'Renascer praise',
-          type:'Declaração'
-      },
-      {
-          name:'Senhor e Rei (Acima de tudo)',
-          author:'Ministério apascentar',
-          type:'Declaração'
-      },
-      {
-          name:'Senhor tu és bom (Deus é bom)',
-          author:'Soraya Moraes',
-          type:'Declaração'
-      },
-      {
-          name:'Seu sangue',
-          author:'Fernandinho',
-          type:'Declaração'
-      },
-      {
-          name:'Te conhecer',
-          author:'Ministério apascentar',
-          type:'Declaração'
-      },
-      {
-          name:'Teu amor não falha',
-          author:'Nívea Soares',
-          type:'Declaração'
-      },
-      {
-          name:'Teu Santo Nome',
-          author:'Gabriela Rocha',
-          type:'Declaração'
-      },
-      {
-          name:'Tu és bom',
-          author:'Fred Arrais',
-          type:'Declaração'
-      },
-      {
-          name:'Tu és fiel',
-          author:'Eyshila',
-          type:'Declaração'
-      },
-      {
-          name:'Tu reinas',
-          author:'Julio Cesar Junior',
-          type:'Declaração'
-      },
-      {
-          name:'Vim para adorar-te',
-          author:'Adoração e Adoradores',
-          type:'Declaração'
-      },
-      
+    name: "Vou te alegrar",
+    author: "Aline Barros",
+    type: "Convocação",
+  },
+
+  //    ---- Declaração ----
+  {
+    name: "A Ele a Glória",
+    author: "Diante do trono",
+    type: "Declaração",
+  },
+  {
+    name: "A tua glória me atrai",
+    author: "Marcos Freire",
+    type: "Declaração",
+  },
+  {
+    name: "Aclame ao Senhor",
+    author: "Diante do trono",
+    type: "Ddeclaração",
+  },
+  {
+    name: "Aleluia (Halleluja)",
+    author: "Gabriela Rocha",
+    type: "Declaração",
+  },
+  {
+    name: "Ao único",
+    author: "Eli Soares",
+    type: "Declaração",
+  },
+  {
+    name: "Caminho no deserto",
+    author: "Sarah Fernandes",
+    type: "Declarção",
+  },
+  {
+    name: "Canção do apocalipse",
+    author: "Diante do trono",
+    type: "Declaração",
+  },
+  {
+    name: "Canção do céu",
+    author: "Anderson Freire",
+    type: "Declaração",
+  },
+  {
+    name: "Consagração",
+    author: "Aline Barros",
+    type: "Declaração",
+  },
+  {
+    name: "Deus da minha vida",
+    author: "Thalles Roberto",
+    type: "Declaração",
+  },
+  {
+    name: "Deus de promessas",
+    author: "Davi Sacer",
+    type: "Declaração",
+  },
+  {
+    name: "Deus dos deuses",
+    author: "Lauriete",
+    type: "Declaração",
+  },
+  {
+    name: "Deus é Deus",
+    author: "Denilo Marçal",
+    type: "Declaração",
+  },
+  {
+    name: "Deus forte",
+    author: "Kleber Lucas",
+    type: "Decçaração",
+  },
+  {
+    name: "Deus tu é Santo",
+    author: "Danielle Cristina",
+    type: "Declaração",
+  },
+  {
+    name: "Digno é o cordeiro",
+    author: "Casa de Davi",
+    type: "Declaração",
+  },
+  {
+    name: "Digno é o Senhor",
+    author: "Aline Barros",
+    type: "Declaração",
+  },
+  {
+    name: "Em espirito e em verdade",
+    author: "Rosa de Saron",
+    type: "Declaração",
+  },
+  {
+    name: "Emanuel",
+    author: "Fernandinho",
+    type: "Declaração",
+  },
+  {
+    name: "Eu sou teu",
+    author: "Gabriela Rocha",
+    type: "Declaração",
+  },
+  {
+    name: "Fidelidade",
+    author: "Danielle Cristina",
+    type: "Declaração",
+  },
+  {
+    name: "Filho do Deus vivo",
+    author: "Nivea Soares",
+    type: "Declaração",
+  },
+  {
+    name: "Galileu",
+    author: "Fernandinho",
+    type: "Declaração",
+  },
+  {
+    name: "Grande é o Senhor",
+    author: "Adhemar de Campos",
+    type: "Declaração",
+  },
+  {
+    name: "Grandes coisas",
+    author: "Fernandinho",
+    type: "Declaração",
+  },
+  {
+    name: "Lindo és",
+    author: "Kingdon Movement",
+    type: "Declaração",
+  },
+  {
+    name: "Maravilhado",
+    author: "Nivea Soares",
+    type: "Declaração",
+  },
+  {
+    name: "Nada além do sangue",
+    author: "Fernandinho",
+    type: "Declaração",
+  },
+  {
+    name: "Nada se compara",
+    author: "Renascer Praise",
+    type: "Declaração",
+  },
+  {
+    name: "Ninguém explica Deus",
+    author: "Gabriela Rocha",
+    type: "Declaração",
+  },
+  {
+    name: "Nosso general é Cristo",
+    author: "Adhemar de Campos",
+    type: "Declaração",
+  },
+  {
+    name: "Nunca foi sobre nós",
+    author: "Ministério Zoe",
+    type: "Declaração",
+  },
+  {
+    name: "O nome",
+    author: "Luma Elpídio",
+    type: "Declaração",
+  },
+  {
+    name: "Oh quão lindo esse nome é",
+    author: "Kemuel",
+    type: "Declaração",
+  },
+  {
+    name: "Oh quão lindo esse nome é",
+    author: "Kemuel",
+    type: "Declaração",
+  },
+  {
+    name: "Oh quão lindo esse nome é",
+    author: "Kemuel",
+    type: "Declaração",
+  },
+  {
+    name: "Pai Nosso",
+    author: "Pedras Vivas",
+    type: "Declaração",
+  },
+  {
+    name: "Plano perfeito",
+    author: "Renascer Praise",
+    type: "Declaração",
+  },
+  {
+    name: "Poderoso Deus",
+    author: "David Quilan",
+    type: "Declaração",
+  },
+  {
+    name: "Pra sempre",
+    author: "Ministério Avivah",
+    type: "Declaração",
+  },
+  {
+    name: "Quão grande é o meu Deus ",
+    author: "Soraya Morais",
+    type: "Declaração",
+  },
+  {
+    name: "Quebrantado",
+    author: "Vineyard",
+    type: "Declaração",
+  },
+  {
+    name: "Quem é aquele",
+    author: "DROPS",
+    type: "Declaração",
+  },
+  {
+    name: "Reina em mim",
+    author: "Vineyard",
+    type: "Declaração",
+  },
+  {
+    name: "Santo",
+    author: "Juliano Son",
+    type: "Declaração",
+  },
+  {
+    name: "Santo é o cordeiro",
+    author: "Renascer praise",
+    type: "Declaração",
+  },
+  {
+    name: "Senhor e Rei (Acima de tudo)",
+    author: "Ministério apascentar",
+    type: "Declaração",
+  },
+  {
+    name: "Senhor tu és bom (Deus é bom)",
+    author: "Soraya Moraes",
+    type: "Declaração",
+  },
+  {
+    name: "Seu sangue",
+    author: "Fernandinho",
+    type: "Declaração",
+  },
+  {
+    name: "Te conhecer",
+    author: "Ministério apascentar",
+    type: "Declaração",
+  },
+  {
+    name: "Teu amor não falha",
+    author: "Nívea Soares",
+    type: "Declaração",
+  },
+  {
+    name: "Teu Santo Nome",
+    author: "Gabriela Rocha",
+    type: "Declaração",
+  },
+  {
+    name: "Tu és bom",
+    author: "Fred Arrais",
+    type: "Declaração",
+  },
+  {
+    name: "Tu és fiel",
+    author: "Eyshila",
+    type: "Declaração",
+  },
+  {
+    name: "Tu reinas",
+    author: "Julio Cesar Junior",
+    type: "Declaração",
+  },
+  {
+    name: "Vim para adorar-te",
+    author: "Adoração e Adoradores",
+    type: "Declaração",
+  },
+  //    ---- Encontro ----
+  {
+    name: "Abba",
+    author: "Laura Souguelis",
+    type: "Encontro",
+  },
+  {
+    name: "Abraça-me",
+    author: "André Valadão",
+    type: "Encontro",
+  },
+  {
+    name: "Abro mão ",
+    author: "Davi Sacer",
+    type: "Encontro",
+  },
+  {
+    name: "Acende um fogo",
+    author: "Filipe Souza",
+    type: "Encontro",
+  },
+  {
+    name: "Aguas purificadoras",
+    author: "Diante do Trono",
+    type: "Encontro",
+  },
+  {
+    name: "Beija-me com Tua glória",
+    author: "Judson Oliveira",
+    type: "Encontro",
+  },
+  {
+    name: "Casa do Pai",
+    author: "Aline Barros",
+    type: "Encontro",
+  },
+  {
+    name: "Como ninguém vê",
+    author: "André Valadão",
+    type: "Encontro",
+  },
+  {
+    name: "Coração Igual ao Teu",
+    author: "Diante do trono",
+    type: "Encontro",
+  },
+  {
+    name: "Correrei",
+    author: "Gabriela Rocha",
+    type: "Encontro",
+  },
+  {
+    name: "Deixa queimar",
+    author: "Alessandro Vilas Boas",
+    type: "Encontro",
+  },
+  {
+    name: "Dependo de Ti",
+    author: "Paulo César Baruk",
+    type: "Encontro",
+  },
+  {
+    name: "É tudo sobre você",
+    author: "Morada",
+    type: "Encontro",
+  },
+  {
+    name: "Ele vem",
+    author: "Deigma Marques",
+    type: "Encontro",
+  },
+  {
+    name: "Em Teus braços",
+    author: "Laura Souguelis",
+    type: "Encontro",
+  },
+  {
+    name: "Em Tua presença",
+    author: "Nivea Soares",
+    type: "Encontro",
+  },
+  {
+    name: "Enche-me",
+    author: "Gabriela Rocha",
+    type: "Encontro",
+  },
+  {
+    name: "Encontrei o meu lugar",
+    author: "Jhonas Serra",
+    type: "Encontro",
+  },
+  {
+    name: "Eu era órfão",
+    author: "Cia Salt",
+    type: "Encontro",
+  },
+  {
+    name: "Eu me rendo",
+    author: "Ministério Mergulhar",
+    type: "Encontro",
+  },
+  {
+    name: "Eu não posso viver (leva-me em Tua presença)",
+    author: "Deigma Marques",
+    type: "Encontro",
+  },
+  {
+    name: "Eu navergarei",
+    author: "Gabriela Rocha",
+    type: "Encontro",
+  },
+  {
+    name: "Furioso oceano",
+    author: "Jhonas Serra",
+    type: "Encontro",
+  },
+  {
+    name: "Graça",
+    author: "André Aquino",
+    type: "Encontro",
+  },
+  {
+    name: "Há um lugar",
+    author: "Heloisa Rosa",
+    type: "Encontro",
+  },
+  {
+    name: "Já estou crucificado",
+    author: "Fernandinho",
+    type: "Encontro",
+  },
+  {
+    name: "Jesus, meu primeiro amor",
+    author: "Fernanda Brum",
+    type: "Encontro",
+  },
+  {
+    name: "Lugar secreto",
+    author: "Gabriela Rocha",
+    type: "Encontro",
+  },
+  {
+    name: "Lugares altos",
+    author: "Renascer praise",
+    type: "Encontro",
+  },
+  {
+    name: "Mais perto",
+    author: "Laura Souguelis",
+    type: "Encontro",
+  },
+  {
+    name: "Manancial",
+    author: "Diante do trono",
+    type: "Encontro",
+  },
+  {
+    name: "Me derramar",
+    author: "Vineyard",
+    type: "Encontro",
+  },
+  {
+    name: "Me esvaziar",
+    author: "Nivea Soares",
+    type: "Encontro",
+  },
+  {
+    name: "Meu coração é Teu / Pra Te adorar",
+    author: "Gabriela Rocha",
+    type: "Encontro",
+  },
+  {
+    name: "Meu respirar",
+    author: "Nivea Soares",
+    type: "Encontro",
+  },
+  {
+    name: "Mostra-me Tua glória",
+    author: "Pedras Vivas",
+    type: "Encontro",
+  },
+  {
+    name: "Nada além de Ti",
+    author: "Gabriela Rocha",
+    type: "Encontro",
+  },
+  {
+    name: "No silêncio",
+    author: "Ministério Zoe",
+    type: "Encontro",
+  },
+  {
+    name: "O carpinteiro",
+    author: "Alessandro Vilas Boas",
+    type: "Encontro",
+  },
+  {
+    name: "O que Tua glória fez comigo",
+    author: "Fernanda Brum",
+    type: "Encontro",
+  },
+  {
+    name: "Oh se fendesses",
+    author: "Morada",
+    type: "Encontro",
+  },
+  {
+    name: "Ouço Deus me chamar",
+    author: "Ludimila Ferber",
+    type: "Encontro",
+  },
+  {
+    name: "Ousado amor",
+    author: "Isaias Saad",
+    type: "Encontro",
+  },
+  {
+    name: "perto de você",
+    author: "Ministério Zoe",
+    type: "Encontro",
+  },
+  {
+    name: "Pra onde eu irei",
+    author: "Morada",
+    type: "Encontro",
+  },
+  {
+    name: "Pra quem se humilhar",
+    author: "Vitor Barreto",
+    type: "Encontro",
+  },
+  {
+    name: "Preciso de Ti",
+    author: "Diante do trono",
+    type: "Encontro",
+  },
+  {
+    name: "Preso ao Teu amor",
+    author: "Ministério SPA",
+    type: "Encontro",
+  },
+  {
+    name: "Primeira Essência",
+    author: "Aline Barros",
+    type: "Encontro",
+  },
+  {
+    name: "Quando luz se apagar",
+    author: "Ministério Zoe",
+    type: "Encontro",
+  },
+  {
+    name: "",
+    author: "",
+    type: "Encontro",
+  },
+  {
+    name: "",
+    author: "",
+    type: "Encontro",
+  },
+  {
+    name: "",
+    author: "",
+    type: "Encontro",
+  },
+  {
+    name: "",
+    author: "",
+    type: "Encontro",
+  },
+  {
+    name: "",
+    author: "",
+    type: "Encontro",
+  },
+  {
+    name: "",
+    author: "",
+    type: "Encontro",
+  },
+  {
+    name: "",
+    author: "",
+    type: "Encontro",
+  },
 ];
 
 var btnEscolha = document.getElementById("show_music");
 var spanWindow = document.getElementById("louvores");
 
 btnEscolha.addEventListener("click", () => {
-    console.log('Musicas salvas: ' +items.length)
+  console.log("Musicas salvas: " + items.length);
   // mostrar uma lista de itens sem repetir os nomes
   spanWindow.innerHTML = "";
   var listaItens = [];
@@ -455,12 +735,9 @@ btnEscolha.addEventListener("click", () => {
         listaItens.push(items[r].name);
 
         var li = document.createElement("li");
-        
 
-        
-
-        li.innerHTML = `${items[r].name} - ${items[r].author} - ${items[r].type}`;
-        //alinha itens no meio 
+        li.innerHTML = `${items[r].name} - ${items[r].author} - ${items[r].type} (<a href="https://www.youtube.com/results?search_query=${items[r].name}+${items[r].author}" target="_blank">Link</a>)`;
+        //alinha itens no meio
         // li.style.textAlign = "left";
         spanWindow.appendChild(li);
       }

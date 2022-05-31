@@ -94,6 +94,14 @@ img{
     border-radius: 50%;
 }
 
+a{
+    text-decoration: none;
+    color: #F1B42F;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: justify;
+}
+
 @media (max-width: 640px){
     
     .container{
