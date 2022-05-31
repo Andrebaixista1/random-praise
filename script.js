@@ -481,7 +481,7 @@ var items = [
   },
   {
     name: "Deixa queimar",
-    author: "Alessandro Vilas Boas",
+    author: "Alessandro Villas Boas",
     type: "Encontro",
   },
   {
@@ -621,7 +621,7 @@ var items = [
   },
   {
     name: "O carpinteiro",
-    author: "Alessandro Vilas Boas",
+    author: "Alessandro Villas Boas",
     type: "Encontro",
   },
   {
@@ -680,40 +680,388 @@ var items = [
     type: "Encontro",
   },
   {
-    name: "",
-    author: "",
+    name: "Quando Ele vem",
+    author: "André Aquino",
     type: "Encontro",
   },
   {
-    name: "",
-    author: "",
+    name: "Que amor é esse",
+    author: "Luma Elpídio",
     type: "Encontro",
   },
   {
-    name: "",
-    author: "",
+    name: "Que Ele cresça",
+    author: "Deigma Marques",
     type: "Encontro",
   },
   {
-    name: "",
-    author: "",
+    name: "Quebro o meu vaso",
+    author: "Luma Elpídio",
     type: "Encontro",
   },
   {
-    name: "",
-    author: "",
+    name: "Quero conhecer Jesus",
+    author: "Alessandro Villas Boas",
     type: "Encontro",
   },
   {
-    name: "",
-    author: "",
+    name: "Quero ser como criança",
+    author: "David Quilan",
     type: "Encontro",
   },
   {
-    name: "",
-    author: "",
+    name: "Reina sobre mim",
+    author: "Nivea Soares",
     type: "Encontro",
   },
+  {
+    name: "Rendido estou",
+    author: "Aline Barros",
+    type: "Encontro",
+  },
+  {
+    name: "Santidade",
+    author: "Davi Fernandes",
+    type: "Encontro",
+  },
+  {
+    name: "Só quero queimar",
+    author: "Jhonas Serra",
+    type: "Encontro",
+  },
+  {
+    name: "Só quero ver Você",
+    author: "Laura Souguelis",
+    type: "Encontro",
+  },
+  {
+    name: "Só uma coisa me satisfaz",
+    author: "Ministério Zoe",
+    type: "Encontro",
+  },
+  {
+    name: "Sua presença é real",
+    author: "Antonio Cirilo",
+    type: "Encontro",
+  },
+  {
+    name: "Te louvarei (perto quero estar)",
+    author: "Toque no altar",
+    type: "Encontro",
+  },
+  {
+    name: "Tua graça me basta",
+    author: "Davi Sacer",
+    type: "Encontro",
+  },
+  {
+    name: "Última chance",
+    author: "Ministério Ipiranga",
+    type: "Encontro",
+  },
+  {
+    name: "Vai valer a pena",
+    author: "Juliano Son",
+    type: "Encontro",
+  },
+   //    ---- Encontro/Declaração ----
+   {
+    name: "Só Tu és santo",
+    author: "Morada",
+    type: "Encontro/Declaração",
+  },
+   //    ---- Resposta ----
+   {
+    name: "Andando sobre as águas",
+    author: "Renascer Praise",
+    type: "Resposta",
+  },
+   {
+    name: "Aquiet minh'alma",
+    author: "Ministério Zoe",
+    type: "Resposta",
+  },
+   {
+    name: "Arde outra vez",
+    author: "Thalles Roberto",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+   {
+    name: "",
+    author: "",
+    type: "Resposta",
+  },
+
 ];
 
 var btnEscolha = document.getElementById("show_music");
