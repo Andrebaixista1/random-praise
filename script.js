@@ -786,7 +786,325 @@ var items = [
     author: "Thalles Roberto",
     type: "Resposta",
   },
-  
+   {
+    name: "Cadeias quebrar",
+    author: "Kemuel",
+    type: "Resposta",
+  },
+   {
+    name: "Caia fogo",
+    author: "Fernandinho",
+    type: "Resposta",
+  },
+   {
+    name: "Com muito louvor",
+    author: "Cassiane",
+    type: "Resposta",
+  },
+   {
+    name: "Confia",
+    author: "Tua unção",
+    type: "Resposta",
+  },
+   {
+    name: "Creio em Ti",
+    author: "Soraya Moraes",
+    type: "Resposta",
+  },
+   {
+    name: "Creio que Tu és a cura",
+    author: "Gabriela Rocha",
+    type: "Resposta",
+  },
+   {
+    name: "Deus do secreto",
+    author: "Min. Sarando a Terra Ferida",
+    type: "Resposta",
+  },
+   {
+    name: "Deus pode",
+    author: "Renascer Praise",
+    type: "Resposta",
+  },
+   {
+    name: "Diz",
+    author: "Gabriela Rocha",
+    type: "Resposta",
+  },
+   {
+    name: "Ele me ama",
+    author: "Juliano Son",
+    type: "Resposta",
+  },
+   {
+    name: "Ele não desiste de você",
+    author: "Marquinhos Gomes",
+    type: "Resposta",
+  },
+   {
+    name: "Espirito Santo",
+    author: "Fernanda Brum",
+    type: "Resposta",
+  },
+   {
+    name: "Estás comigo",
+    author: "Gabriela Rocha",
+    type: "Resposta",
+  },
+   {
+    name: "Eu me rendo",
+    author: "Renascer Praise",
+    type: "Resposta",
+  },
+   {
+    name: "Eu vou viver milagres",
+    author: "Renascer Praise",
+    type: "Resposta",
+  },
+   {
+    name: "Faça morada",
+    author: "Kemuel",
+    type: "Resposta",
+  },
+   {
+    name: "Fala comig",
+    author: "Eyshila",
+    type: "Resposta",
+  },
+   {
+    name: "Fogo que consome",
+    author: "Geraldo Guimarães",
+    type: "Resposta",
+  },
+   {
+    name: "Hino da Vitória",
+    author: "Cassiane",
+    type: "Resposta",
+  },
+   {
+    name: "Jesus é o caminho",
+    author: "Heloisa Rosa",
+    type: "Resposta",
+  },
+   {
+    name: "Jó",
+    author: "Midian Lima",
+    type: "Resposta",
+  },
+   {
+    name: "Liberta-me de mim",
+    author: "Luma Elpídio",
+    type: "Resposta",
+  },
+   {
+    name: "Louve/Sou livre",
+    author: "Renascer Praise",
+    type: "Resposta",
+  },
+   {
+    name: "Lugar seguro",
+    author: "Aline Barros",
+    type: "Resposta",
+  },
+   {
+    name: "Mapa do tesouro",
+    author: "Gisele Nascimento",
+    type: "Resposta",
+  },
+   {
+    name: "Maranata",
+    author: "Ministério Avivah",
+    type: "Resposta",
+  },
+   {
+    name: "Marca da promessa",
+    author: "Trazendo a arca",
+    type: "Resposta",
+  },
+   {
+    name: "Me ama",
+    author: "Diante do trono",
+    type: "Resposta",
+  },
+   {
+    name: "Milagres",
+    author: "Juliano Son",
+    type: "Resposta",
+  },
+   {
+    name: "Nada pode calar um adorador",
+    author: "Eyshila",
+    type: "Resposta",
+  },
+   {
+    name: "Não morrerei",
+    author: "Marquinhos Gomes",
+    type: "Resposta",
+  },
+   {
+    name: "Não pare",
+    author: "Midian Lima",
+    type: "Resposta",
+  },
+   {
+    name: "Não serremos abalados",
+    author: "Nivea Soares",
+    type: "Resposta",
+  },
+   {
+    name: "No caminho do milagre",
+    author: "Davi Sacer",
+    type: "Resposta",
+  },
+   {
+    name: "Novo dia, novo tempo",
+    author: "Renascer Praise",
+    type: "Resposta",
+  },
+   {
+    name: "Nunca me deixou",
+    author: "Juliano Son",
+    type: "Resposta",
+  },
+   {
+    name: "Nunca pare de lutar",
+    author: "Ludimila Ferber",
+    type: "Resposta",
+  },
+   {
+    name: "O haja de Deus",
+    author: "Min. Sarando a Terra Ferida",
+    type: "Resposta",
+  },
+   {
+    name: "O maior troféu",
+    author: "Damares",
+    type: "Resposta",
+  },
+   {
+    name: "O mapa do tesouro",
+    author: "Gisele Nascimento",
+    type: "Resposta",
+  },
+   {
+    name: "Oceanos",
+    author: "Ana Nóbrega",
+    type: "Resposta",
+  },
+   {
+    name: "Posso clamar",
+    author: "Eyshila",
+    type: "Resposta",
+  },
+   {
+    name: "Quero descer",
+    author: "Raquel Mello",
+    type: "Resposta",
+  },
+   {
+    name: "Ressucita",
+    author: "Ministério Ipiranga",
+    type: "Resposta",
+  },
+   {
+    name: "Ressucita-me",
+    author: "Aline Barros",
+    type: "Resposta",
+  },
+   {
+    name: "Restitui",
+    author: "Renascer Praise",
+    type: "Resposta",
+  },
+   {
+    name: "Restitui",
+    author: "Toque no altar",
+    type: "Resposta",
+  },
+   {
+    name: "Rompendo em fé",
+    author: "Kleber Lucas",
+    type: "Resposta",
+  },
+   {
+    name: "Sai da tua tenda",
+    author: "Min. Sai da Tenda",
+    type: "Resposta",
+  },
+   {
+    name: "Se eu me humilhar",
+    author: "Discopraise",
+    type: "Resposta",
+  },
+   {
+    name: "Sobre as águas",
+    author: "Trazendo a arca",
+    type: "Resposta",
+  },
+   {
+    name: "Sou humano",
+    author: "Bruna Karla",
+    type: "Resposta",
+  },
+   {
+    name: "Terremoto",
+    author: "Eyshila",
+    type: "Resposta",
+  },
+   {
+    name: "Tadavia me alegrarei",
+    author: "Leandro Soares",
+    type: "Resposta",
+  },
+   {
+    name: "Tu podes",
+    author: "Regis Danese",
+    type: "Resposta",
+  },
+   {
+    name: "Uma coisa",
+    author: "Morada",
+    type: "Resposta",
+  },
+   {
+    name: "Você me leva ao deserto",
+    author: "Ministério Zoe",
+    type: "Resposta",
+  },
+   {
+    name: "Volte a sonhar",
+    author: "Elaine Martins",
+    type: "Resposta",
+  },
+   {
+    name: "Vou confiar",
+    author: "Regis Danese",
+    type: "Resposta",
+  },
+  // ---- Resposta/Declaração ----
+  {
+      name:'Pra onde iremos',
+      author:'Gabriela Rocha',
+      type:"Resposta/Declaração"
+  },
+  // ---- Resposta/Encontro ----
+  {
+      name:'Sonda-me',
+      author:'Aline Barros',
+      type:"Resposta/Encontro"
+  },
+  // ---- Sem tipo definido ----
+  {
+      name:'Eu vou construir',
+      author:'Juliano Son',
+      type:""
+  },
+  {
+      name:'Terra Fértil',
+      author:'Min. Além do Véu',
+      type:""
+  },
+    
 
 ];
 
